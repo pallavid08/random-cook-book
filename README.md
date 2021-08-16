@@ -2,5 +2,6 @@
 Created with CodeSandbox
 
 
-![Screen Shot 2021-08-16 at 5 10 55 PM](https://user-images.githubusercontent.com/78755069/129586837-1d4cab8c-29a0-451d-8c56-3a85bc06c167.png)
-![Screen Shot 2021-08-16 at 5 11 36 PM](https://user-images.githubusercontent.com/78755069/129586864-02d4fc3c-afda-45a6-a347-f680fac742d8.png)
+![Screen Shot 2021-08-16 at 5 18 44 PM](https://user-images.githubusercontent.com/78755069/129587705-9e5fb94d-07e8-41cb-ad31-444fb444fc32.png)
+![Screen Shot 2021-08-16 at 5 19 45 PM](https://user-images.githubusercontent.com/78755069/129587715-bd0ab175-bae5-440c-8fbd-11c230fe0982.png)
+
