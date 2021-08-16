@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+@media screen and (max-width: 600px) {
+  .App,
+  .homeWrapper,
+  .navbar,
+  .footer,
+  .homeImage,
+  .list,
+  .aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.appTitle {
+  margin-top: 20px;
+  padding: 40px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.navbar {
+  margin: 30px 120px 50px 120px;
+  border-top: 5px solid seagreen;
+  /* background-color: seagreen; */
+  border-bottom: 5px solid seagreen;
+  text-align: center;
+}
+.homeImage {
+  max-width: 100%;
+  height: auto;
+}
+/* @media screen and (max-width: 600px) {
+  .list {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+} */
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-around;
+  font-family: "Comfortaa", cursive;
+}
+
+li a {
+  text-decoration: none;
+  color: goldenrod;
+  text-transform: uppercase;
+  font-family: ;
+}
+
+.footer {
+  text-align: center;
+  margin: 50px 350px 0px 350px;
+  border-top: 5px solid indigo;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.icons {
+  display: in-line flex;
+  flex-wrap: wrap;
+}
+.footerIcons {
+  width: 100px;
+  height: auto;
+}
+.displayWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+.mealContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: seagreen;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  transition: transform 0.2s;
+}
+.mealContainer:hover {
+  transform: scale(1.1) rotate(-10deg);
+}
+.mealNameImage {
+  width: 100px;
+  height: auto;
+}
+.mealNameWrapper {
+  display: flex;
+  justify-content: center;
+}
+.mealName {
+  color: goldenrod;
+  font-family: "Comfortaa", cursive;
+}
+.category {
+  margin: inherit;
+  color: indigo;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.getMealsButton {
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: goldenrod;
+  border: 1px solid white;
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+  color: white;
+}
+.ps {
+  display: in-line flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.mealDetailsWrapper {
+  /* border: 1px solid gray; */
+}
+@media screen and (max-width: 600px) {
+  .mealDetailWrapper,
+  .mealDetailsName,
+  .mealDetailImage,
+  .mealDetailsInstrWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.mealDetailsName {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  margin: 50px 0 30px 0;
+}
+.mealDetailImage {
+  max-width: 100%;
+  height: auto;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; */
+  border-radius: 20px;
+  padding: 10px;
+}
+.mealDetailsList {
+  text-align: center;
+  list-style: none;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.mealDetailsLi {
+  padding: 10px;
+}
+.mealDetailsInstrWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* border: 1px solid gray; */
+  padding: 0 20px 20px 20px;
+  margin: 0 100px 0 100px;
+
+  border-radius: 20px;
+}
