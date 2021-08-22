@@ -5,15 +5,23 @@ import MealNameDisplay from "./MealNameDisplay";
 
 const MealsListDisplay = () => {
   const [mealList, setMealList] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   const getMeals = () => {
-    axios
-      .get(`https://www.themealdb.com/api/json/v2/9973533/randomselection.php`)
-      .then((response) => {
-        setMealList(response.data.meals);
-      })
-      .catch((error) => console.log(error));
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      axios
+        .get(
+          `https://www.themealdb.com/api/json/v2/9973533/randomselection.php`
+        )
+        .then((response) => {
+          setMealList(response.data.meals);
+        })
+        .catch((error) => console.log(error));
+    }, 3000);
   };
+  if (loading) return <div className="loading">Abracadabra.....</div>;
 
   return (
     <div>

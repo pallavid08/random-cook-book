@@ -189,3 +189,9 @@ a {
 
   border-radius: 20px;
 }
+.loading {
+  font-family: "Courier New", Courier, monospace;
+  color: indigo;
+  font-size: 40px;
+  padding: 10px;
+}
